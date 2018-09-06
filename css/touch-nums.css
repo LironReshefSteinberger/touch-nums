@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: block;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    margin: 0 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.clock-level-container {
+    /* text-shadow: 3px 4px 1px #ce2323; */
+    position: relative;
+    background-color: yellow;
+    color: #ce2323;
+    top: 2%;
+    box-shadow: 3px 4px 1px #ce2323;
+    width: 99.4%;
+}
+
+.levels, .restart {
+    /* position: relative;
+    left: 50%;
+    top: 50%; */
+    width: 100px;
+    background-color: yellow;
+    color:  rgb(75, 74, 74);
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    left: 25.5%;
+}
+
+.restart {
+    left: 18.5%;
+}
+
+/* button {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    color:  rgb(75, 74, 74);
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    font-weight: bold;
+} */
+
+.clock {
+    height: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+.container {
+    background-color: rgb(75, 74, 74);
+    height: 100%;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    position: relative;
+    top: 2%;
+    text-shadow: 3px 4px 1px #ce2323;
+}
+
+.nums-table {
+    border-collapse: separate;
+    margin: 0 auto;
+    position: relative;
+    top: 6%;
+    /* background-color: rgb(209, 208, 208); */
+    color: rgb(75, 74, 74);
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    border-spacing: 6px;
+}
+
+/* .beginner */
+/* td {
+    border: 2px solid white;
+    background-color: #cef1f7;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    text-shadow: 3px 4px 1px #e1dede;
+    cursor: pointer;
+} */
+
+/* .medium */
+/* td {
+    border: 2px solid white;
+    background-color: #cef1f7;
+    width: 106px;
+    height: 106px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 50px;
+    text-shadow: 3px 4px 1px #e1dede;
+    cursor: pointer;
+} */
+
+/* .expert */
+td {
+    border: 2px solid white;
+    background-color: #cef1f7;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 50px;
+    text-shadow: 3px 4px 1px #e1dede;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: rgb(189, 188, 188);
+    transform: scale(0.9);
+    transition: transform 0.5s;
+    opacity: 0.6;
+    
+}
+
+.game-over-container {
+    /* display: none; */
+}
+
+
+
+.game-over {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Carter One', cursive;
+    font-size: 80px;
+    color: yellow;
+    text-shadow: 3px 4px 1px rgb(189, 188, 188);
+    width: 500px;
+    height: 45px;
+    /* opacity: 0.5;*/
+    position: relative;
+    top: -60%;
+    left: 17%;
+    transition: all 0.5s;
+}
+
+/* .beginner {
+    border: 2px solid white;
+    background-color: #cef1f7;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    text-shadow: 3px 4px 1px #e1dede;
+    cursor: pointer;
+} */
